@@ -65,11 +65,13 @@ span {
   left:50%;
   transform: translate(-50%, -50%);
   opacity:.6;
+
  
     
 }
 .coding, .music, .news, .fitness, .math, .lang {
   color: cyan;
+  margin: 20px;
 }
 
 #fitnessBox, #mathBox, #newsBox, #musicBox, #progBox, #langBox {
@@ -83,7 +85,6 @@ span {
   display:none;
   background-color: black;
   color: white;
-  overflow: scroll;
   overflow-x: hidden;
   
 }
